@@ -87,7 +87,7 @@ menuIcon.onclick=()=>{
     navlist.classList.toggle("open");
 }
 
-menuIcon.onscroll=()=>{
+window.onscroll=()=>{
     menuIcon.classList.remove("bx-x");
     navlist.classList.remove("open");
 }
